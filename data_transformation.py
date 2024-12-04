@@ -11,7 +11,7 @@ import albumentations as A
 from albumentations.pytorch import ToTensorV2
 from torchvision import transforms as transforms
 import dill as pickle
-os.systemof('pip show torchvision')
+os.system('pip show torchvision')
 
 def transform_data():
     # os.system("python3.10 annot2xml.py")
